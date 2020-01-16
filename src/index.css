@@ -1,0 +1,135 @@
+body{
+    background-image: url(./img/background.png);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 55, 77);
+}
+
+.profile-img{
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 1px solid rgb(252, 94, 120);
+    box-shadow: 3px 3px 3px grey;
+}
+
+.about_me, .education, .projects{
+    display: inline-block;
+    margin: 20px;
+    margin-right: 50px;
+    width: 80px;
+    height: 80px;
+    line-height: 55px;
+    border: 2px solid rgb(252, 94, 120);
+    background-color: rgb(252, 94, 120);
+    border-radius: 100px;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.about_me:hover,
+.about_me:focus {
+  width: 90px;
+  height: 90px;
+  line-height: 60px;
+}
+
+.education:hover,
+.education:focus {
+  width: 90px;
+  height: 90px;
+  line-height: 60px;
+}
+
+.projects:hover,
+.projects:focus {
+  width: 90px;
+  height: 90px;
+  line-height: 60px;
+}
+
+.edu, .proj{
+    margin-top: 5%;
+    border: groove;
+    border-width: 1px;
+    border-color: rgb(252, 94, 120); ;
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
+    text-align: justify;
+    padding: 30px;
+}
+
+.footer{
+    margin: 50px;
+}
+
+.git-projects{
+    text-align: center;
+}
+
+
+.personal-interests{
+    padding: 50px;
+    text-align: center;
+    font-size: smaller;
+    
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    border: 2px solid rgb(252, 94, 120);
+    box-shadow: 3px 3px 3px grey;
+    display: inline-block;
+}
+.about-wrapper{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    
+}
+
+.about{
+    width: 600px;
+    font-size: 12pt;
+    margin: 30px;
+    text-align: justify;
+    display: inline-block;
+    
+}
+
+.languages-wrapper{
+    display: inline-block;
+    margin: 40px;
+    border: 2px solid rgb(252, 94, 120);
+    width: 170px;
+    height: 170px;
+    border-radius: 200px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.languages{
+    padding: 40px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.smaller{
+    font-size: 10pt;
+}
+.other{
+    text-align: justify;
+    display: inline-block;
+    border: 1px solid rgb(252, 94, 120);
+    padding: 20px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 20px;
+    width: 550px;
+}
